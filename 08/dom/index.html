@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom.js"></script>
+    <style>
+        .link-el{
+            display: inline-block;
+            padding: 20px;
+            background-color: yellow;
+        }
+        .big-link{
+            font-size: 32px;
+        }
+        .decorate{
+            text-decoration: underline;
+            border: 6px solid orange;
+        }
+        .subtitle{
+            letter-spacing: 15px;
+        }
+        .modal{
+            display: none;
+            position: absolute;
+            z-index: 2;
+            background-color: blue;
+            color: yellow;
+            font-size: 40px;
+            text-align: center;
+            padding: 50px;
+            top: 200px;
+            left: 40%;
+        }
+        .modal.show{
+            display: block;
+        }
+        .modal.modify{
+            display: block;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal show">
+        Content
+    </div>
+    <button class="btn">
+        show modal
+    </button>
+    <h1>
+        Hello
+    </h1>
+    <h2 class="subtitle">
+        Style css
+    </h2>
+    <ul class="nav">
+        <li>Home Main</li>
+        <li>Home</li>
+        <li class="active">About</li>
+        <li>News</li>
+        <li>News 222</li>
+    </ul>
+    <div class="container"></div>
+    <button disabled>
+        Send email
+    </button>
+    <!-- <button >
+        Send email
+    </button> -->
+</body>
+</html>
