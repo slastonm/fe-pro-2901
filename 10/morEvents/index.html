@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="events.js"></script>
+    <style>
+        body{
+            margin: 0;
+        }
+        .hoverjs,
+        .mouse{
+            border: 2px solid black;
+            padding: 50px;
+            width: 250px;
+            text-align: center;
+            background-color: lawngreen;
+            margin-bottom: 20px;
+        }
+        .textinfo{
+            padding: 40px;
+            font-size: 20px;
+        }
+        .scroll{
+            font-size: 45px;
+            width: 100px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <p class="scroll">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis aperiam laboriosam dignissimos, asperiores velit veniam sit dolores quis vero in esse magni animi totam accusantium optio explicabo eaque unde pariatur.
+    </p>
+    <div class="mouse">
+        Mouse event <span></span>
+    </div>
+    <div class="hoverjs">
+        Mouse event <span></span>
+        <p></p>
+    </div>
+    <div>
+        <textarea name="" id="" cols="30" rows="10"></textarea> 
+        <div class="textinfo"></div>
+        <!-- <ul>
+            <li>Copy</li>
+            <li>Delete</li>
+        </ul>        -->
+    </div>
+
+</body>
+</html>
