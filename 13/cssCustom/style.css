@@ -1,0 +1,26 @@
+:root{
+    --bg-color:black;
+    --text-color:yellow;
+}
+.move{
+    /* --mouse-x:0;
+    --mouse-y:0; */
+    --bg-color:red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-color);
+    /* top: var(--mouse-y);
+    left: var(--mouse-x); */
+}
+body{
+    margin: 0;
+    padding: 50px;
+    background-color: var(--bg-color);
+}
+h1{
+    color: var(--text-color);
+}
+p{
+    color: var(--text-color);
+}
