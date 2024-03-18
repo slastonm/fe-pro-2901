@@ -1,0 +1,12 @@
+{
+    "userName":"Tom",
+    "userAge":30,
+    "workNomw":true,
+    "company":{
+        "name":"Microsoft",
+        "address":"USA"
+    },
+    "userSkills":[
+        "html", "css", "js", "git", "scss"
+    ]    
+}

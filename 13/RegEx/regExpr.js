@@ -1,15 +1,16 @@
 // let catRegEx = /кіт$/; Кінець рядка
 //let catRegEx = /^кіт/; // 
-// let catRegEx = /\b кіт\b/;
-let catStart = 'кітна початку';
-let catEnd = 'а тут в кінці кіт';
+let catRegEx = /\btest\b/;
+let catStart = 'tester на початку';
+let catEnd = 'а тут в кінці test';
 let catMod = 'а тут в кінці кiiiт';
 let notCat = 'а тут в кінці кит';
 // let catRegEx = /к*т/; // 
-let catRegEx = /ко?т/; // 
-
-// console.log(catRegEx.test(catStart));
-// console.log(catRegEx.test(catEnd));
+// let catRegEx = /ко?т/; 
+console.log('test b');
+console.log(catRegEx.test(catStart));
+console.log(catRegEx.test(catEnd));
+console.log('test b');
 // console.log(catRegEx.test(catMod));
 // console.log(catRegEx.test(notCat));
 // console.log(catRegEx.test('кт'));

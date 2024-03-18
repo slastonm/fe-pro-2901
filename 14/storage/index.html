@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.cookie = "myCookie=Test; SameSite=None; Secure;  expires=Thu, 18 Apr 2024 12:00:00 UTC;";
+        document.cookie = "myAge=Time; SameSite=None; Secure;  max-age=3600";
+        // edit
+        document.cookie = "myAge=Edit; SameSite=None; Secure;  max-age=600";
+        // delete
+        // document.cookie = "myAge=; SameSite=None; Secure;  max-age=600";
+        document.cookie = "myAge=; SameSite=None; Secure;  max-age=0";
+
+    </script>
+</body>
+</html>

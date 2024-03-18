@@ -1,0 +1,12 @@
+<template>
+    <username>Tom user</username>
+    <age>30</age>
+    <info>
+        <skill>
+            html
+        </skill>
+        <skill>
+            css
+        </skill>
+    </info>
+</template>
