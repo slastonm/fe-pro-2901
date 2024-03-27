@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const posts = [
+            {id:1, text:'Hello'},
+            {id:2, text:'world'}
+        ]
+        function getData(){
+            setTimeout(()=>{
+                let dataItem = '';
+                posts.forEach((post)=>{
+                    dataItem += `<p>${post.text}</p>`
+                })
+                document.body.innerHTML = dataItem;
+            }, 1000)
+        }
+        function createData(post, callBackFn){
+            setTimeout(()=>{
+                posts.push(post);
+                callBackFn();
+            }, 2000)
+        }
+
+        getData();
+
+        createData({id:3, text:'New data'}, getData);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
